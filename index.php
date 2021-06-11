@@ -9,16 +9,16 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <?php require_once('header.php');?>
-    </header>
+   
+     <?php require('./templates/header.php');?>
+
     <h1>Bienvenue a ma page</h1>
 
     <main></main>
-    <footer>
+    
       <?php
-      require_once('footer.php');
+      require('./templates/footer.php');
       ?>
-    </footer>
+   
   </body>
 </html>
