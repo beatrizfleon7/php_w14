@@ -12,13 +12,10 @@
    
      <?php require('./templates/header.php');?>
 
-    <h1>Bienvenue a ma page</h1>
-
-    <main></main>
-    
-      <?php
-      require('./templates/footer.php');
-      ?>
+    <main>
+      <h1>Bienvenue a ma page</h1>
+    </main>
+     <?php require('./templates/footer.php');?>
    
   </body>
 </html>
