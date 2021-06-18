@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+}
+.btn_connection {
+  width: 60%;
+  align-self: center;
+}

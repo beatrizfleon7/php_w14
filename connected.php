@@ -11,13 +11,23 @@
   <body>
    
      <?php require_once('./templates/header.php');?>
-
-    <main>
-      <h1>Accueil</h1>
-    
+     
+     <?php if(isset($_SESSION['name'])) {?>
+      <main>
+      <div class="image">
+        <img src="./img/bouquet.png" alt="">
+      </div>
     </main>
+    <?php }else{ ?>
+        <p>Connectez-vous pour avoir accès a ce contenu</p>
+      
+      <?php }?>
+     
+
+    
      <?php require_once('./templates/footer.php');?>
      
    
   </body>
 </html>
+
